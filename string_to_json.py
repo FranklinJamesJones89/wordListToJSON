@@ -15,5 +15,10 @@ with open(Path.home() / 'Code/Scripts/test_file.txt') as user_file:
 # convert credentials_object into JSON data
 credentials_object = json.dumps(credentials_dict, indent=2)
 
+# write credentialsl_dict to new file
+with open('credentials_json.txt', 'w') as file2:
+    file2.write(credentials_object)
+    
+
 # print credentials_object
 print(credentials_object)
