@@ -18,4 +18,4 @@ for names in user_file:
 credentials_object = json.dumps(credentials_dict, indent=2)
 
 # print credentials_object
-print(type(credentials_object))
+print(credentials_object)
