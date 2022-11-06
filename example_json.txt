@@ -1,0 +1,20 @@
+{
+  "usernames": [
+    "jim",
+    "bob",
+    "tim",
+    "mike",
+    "sally",
+    "larry",
+    "kyle"
+  ],
+  "passwords": [
+    "jim",
+    "bob",
+    "tim",
+    "mike",
+    "sally",
+    "larry",
+    "kyle"
+  ]
+}

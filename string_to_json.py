@@ -16,7 +16,7 @@ with open(Path.home() / 'Code/Scripts/test_file.txt') as user_file:
 credentials_object = json.dumps(credentials_dict, indent=2)
 
 # write credentialsl_dict to new file
-with open('credentials_json.txt', 'w') as file2:
+with open('example_json.txt', 'w') as file2:
     file2.write(credentials_object)
     
 
